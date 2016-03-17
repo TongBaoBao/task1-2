@@ -1,0 +1,163 @@
+body{
+	margin: 0;
+	padding:0;
+	background-color:#dedede;
+}
+#header{
+	height: 60px;
+	width: 100%;
+	background-color: #333333;
+}
+#logo{
+	height: 60px;
+	margin-left: 20px;
+	display: inline-block;
+}
+#logo img{
+	height: 100%;
+	width: 100px;
+}
+#nav{
+	height: 60px;
+	float: right;
+}
+#nav ul>li{
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#nav li a{
+	color: white;
+	font-size: 13px;
+}
+.eassy{
+	background-color: white;
+	height: auto;
+	margin-left: 20px;
+	margin-right: 20px;
+	box-shadow: gray 2px 2px;
+}
+.levelOne{
+	font-weight: bold;
+	display: block;
+	font-size: 22px;
+	padding-top: 40px;
+	padding-left: 25px;
+}
+.levelTwo{
+	display: block;
+	font-size: 15px;
+	padding-left: 25px;
+	color: gray;
+}
+.levelThree{
+	display: block;
+	font-size: 12px;
+	color: gray;
+	padding-left: 25px;
+}
+.paraDiv{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 25px;
+}
+#picture li{
+	display: block;
+	border: 1px solid black;
+	margin-bottom: 20px;
+	width: 380px;
+}
+#picture span{
+	margin-left: 150px;
+}
+#picture img{
+	margin-left: 20px;
+}
+#lastTable {
+	width: 100%;
+}
+#lastTable td{
+	border: 0.5px solid #dedede;
+}
+#lastTable tr:first-child{
+	background-color: #333333;
+	color: white;
+}
+#lastTable tr:last-child{
+	background-color: #dedede;
+}
+#sideHead{
+	height: 50px;
+	margin-left: 20px;
+}
+#sideHead h2{
+	font-size: 18px;
+	line-height:80px;
+}
+#sideHead span{
+	background-color: #dedede;
+	height: 40px;
+	width: 3px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.sideDiv{
+	text-align: right;
+	padding-right: 640px;
+}
+.sideDiv p{
+	font-size: 15px;
+}
+.sideP{
+	padding-left: 450px;
+	font-size: 12px;
+	color: gray;
+}
+.div1{
+	padding-right: 713px;
+	margin-bottom: 10px;
+}
+.div2{
+	padding-right: 720px;
+	margin-bottom: 10px;
+}
+.div3{
+	padding-right: 643px;
+	margin-bottom: 10px;
+}
+.div4{
+	padding-right: 100px;
+	margin-bottom: 10px;
+}
+#sureButton{
+	display: block;
+	height: 40px;
+	width: 95%;
+	background-color:#3355d0;
+	margin: 0 auto;
+	border-radius: 10px;
+	color: white;
+	font-size: 15px;
+}
+#Button{
+	padding-bottom: 15px;
+}
+.sideSpan{
+	display: inline-block;
+	font-size: 15px;
+	vertical-align: top;
+}
+.checkboxSpan{
+	font-size: 13px;
+}
+footer{
+	height: 60px;
+	width: 100%;
+	background-color: #333333;
+	text-align: center;
+	line-height:60px;
+	color: white;
+	font-size: 12px;
+}
+
